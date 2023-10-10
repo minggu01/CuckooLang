@@ -1,6 +1,6 @@
-package com.goldensea.cuckoolang.client;
+package com.goldensea.gwt.client;
 
-import com.goldensea.cuckoolang.shared.FieldVerifier;
+import com.goldensea.gwt.shared.FieldVerifier;
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;

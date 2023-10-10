@@ -4,11 +4,11 @@
 
   <!-- POM file generated with GWT webAppCreator -->
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.goldensea.cuckoolang</groupId>
+  <groupId>com.goldensea.gwt</groupId>
   <artifactId>CuckooLang</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>com.goldensea.cuckoolang.CuckooLang</name>
+  <name>com.goldensea.gwt.CuckooLang</name>
 
   <properties>
 
@@ -80,7 +80,7 @@
           </execution>
         </executions>
         <configuration>
-          <moduleName>com.goldensea.cuckoolang.CuckooLang</moduleName>
+          <moduleName>com.goldensea.gwt.CuckooLang</moduleName>
           <moduleShortName>CuckooLang</moduleShortName>
           <failOnError>true</failOnError>
           <!-- GWT compiler 2.8 and above requires 1.8, hence define sourceLevel here if you use

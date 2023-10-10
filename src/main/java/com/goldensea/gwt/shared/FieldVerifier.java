@@ -1,4 +1,4 @@
-package com.goldensea.cuckoolang.shared;
+package com.goldensea.gwt.shared;
 
 /**
  * <p>

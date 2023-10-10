@@ -4,6 +4,20 @@
               http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
          version="2.5"
          xmlns="http://java.sun.com/xml/ns/javaee">
+<<<<<<< HEAD
+=======
+
+  <!-- Servlets -->
+  <servlet>
+    <servlet-name>greetServlet</servlet-name>
+    <servlet-class>com.goldensea.gwt.server.GreetingServiceImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>greetServlet</servlet-name>
+    <url-pattern>/cuckoolang/greet</url-pattern>
+  </servlet-mapping>
+>>>>>>> parent of 8782da1 (change folder name from gwt to cuckoolang)
   
   <!-- Default page to serve -->
   <welcome-file-list>

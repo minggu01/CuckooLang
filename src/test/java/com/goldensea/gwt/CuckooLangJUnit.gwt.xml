@@ -7,9 +7,9 @@
   "https://gwtproject.org/doctype/2.10.0/gwt-module.dtd">
 <module rename-to='cuckoolang'>
   <!-- Inherit our applications main module.                      -->
-  <inherits name='com.goldensea.cuckoolang.CuckooLang'/>
+  <inherits name='com.goldensea.gwt.CuckooLang'/>
 
   <!-- Specify the path to any remote services.                   -->
-  <servlet path="/cuckoolang/greet" class="com.goldensea.cuckoolang.server.GreetingServiceImpl" />
+  <servlet path="/cuckoolang/greet" class="com.goldensea.gwt.server.GreetingServiceImpl" />
 
 </module>
