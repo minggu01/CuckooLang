@@ -1,6 +1,6 @@
-package com.goldensea.gwt;
+package com.goldensea.cuckoolang;
 
-import com.goldensea.gwt.client.CuckooLangTest;
+import com.goldensea.cuckoolang.client.CuckooLangTest;
 import com.google.gwt.junit.tools.GWTTestSuite;
 import junit.framework.Test;
 import junit.framework.TestSuite;

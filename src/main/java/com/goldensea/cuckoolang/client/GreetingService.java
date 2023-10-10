@@ -1,4 +1,4 @@
-package com.goldensea.gwt.client;
+package com.goldensea.cuckoolang.client;
 
 import com.google.gwt.user.client.rpc.RemoteService;
 import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;

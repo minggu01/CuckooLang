@@ -1,7 +1,7 @@
-package com.goldensea.gwt.server;
+package com.goldensea.cuckoolang.server;
 
-import com.goldensea.gwt.client.GreetingService;
-import com.goldensea.gwt.shared.FieldVerifier;
+import com.goldensea.cuckoolang.client.GreetingService;
+import com.goldensea.cuckoolang.shared.FieldVerifier;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 
 /**
