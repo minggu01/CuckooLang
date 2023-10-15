@@ -8,25 +8,11 @@
   <!-- Inherit the core Web Toolkit stuff.                        -->
   <inherits name='com.google.gwt.user.User' />
 
-  <!-- Inherit the default GWT style sheet.  You can change       -->
-  <!-- the theme of your GWT application by uncommenting          -->
-  <!-- any one of the following lines.                            -->
-  <inherits name='com.google.gwt.user.theme.clean.Clean' />
-  <!-- <inherits name='com.google.gwt.user.theme.standard.Standard'/> -->
-  <!-- <inherits name='com.google.gwt.user.theme.chrome.Chrome'/> -->
-  <!-- <inherits name='com.google.gwt.user.theme.dark.Dark'/>     -->
-
-  <!-- Other module inherits                                      -->
-
-  <!-- Specify the app entry point class.                         
-  <entry-point class='com.goldensea.gwt.client.CuckooLang'/>
-  -->
-
   <!-- This will give us shorter obfuscated CSS class names. We guarantee
        that there will be no class names that will conflict with /M.+/ -->
   <set-configuration-property name="CssResource.obfuscationPrefix" value="M" />
 
-  <entry-point class='com.goldensea.gwt.client.Mail' />
+  <entry-point class='com.goldensea.gwt.client.CuckooLang' />
 
   <set-configuration-property name="CssResource.enableGss" value="true" />
   <set-configuration-property name="CssResource.gssDefaultInUiBinder" value="true" />
