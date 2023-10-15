@@ -31,7 +31,7 @@ import com.google.gwt.user.client.ui.Widget;
 /**
  * Entry point classes define <code>onModuleLoad()</code>.
  */
-public class CuckooLang implements EntryPoint {
+public class CuckooLang_backup implements EntryPoint {
 
     /**
      * The message displayed to the user when the server cannot be reached or
@@ -49,11 +49,10 @@ public class CuckooLang implements EntryPoint {
 
     @Override
     public void onModuleLoad() {
-       SplitLayoutPanel p = new SplitLayoutPanel();
-p.addWest(new HTML("navigation"), 128);
-p.addNorth(new HTML("list"), 384);
-p.add(new HTML("details"));
-
+        SplitLayoutPanel p = new SplitLayoutPanel();
+        p.addWest(new HTML("navigation"), 128);
+        p.addNorth(new HTML("list"), 384);
+        p.add(new HTML("details"));
 
         RootLayoutPanel rp = RootLayoutPanel.get();
         rp.add(p);
@@ -156,38 +155,38 @@ p.add(new HTML("details"));
              * response.
              */
             /*
-       * private void sendNameToServer() {
-       * // First, we validate the input.
-       * errorLabel.setText("");
-       * String textToServer = nameField.getText();
-       * if (!FieldVerifier.isValidName(textToServer)) {
-       * errorLabel.setText("Please enter at least four characters");
-       * return;
-       * }
-       * 
-       * // Then, we send the input to the server.
-       * sendButton.setEnabled(false);
-       * textToServerLabel.setText(textToServer);
-       * serverResponseLabel.setText("");
-       * greetingService.greetServer(textToServer, new AsyncCallback<String>() {
-       * public void onFailure(Throwable caught) {
-       * // Show the RPC error message to the user
-       * dialogBox.setText("Remote Procedure Call - Failure");
-       * serverResponseLabel.addStyleName("serverResponseLabelError");
-       * serverResponseLabel.setHTML(SERVER_ERROR);
-       * dialogBox.center();
-       * closeButton.setFocus(true);
-       * }
-       * 
-       * public void onSuccess(String result) {
-       * dialogBox.setText("Remote Procedure Call");
-       * serverResponseLabel.removeStyleName("serverResponseLabelError");
-       * serverResponseLabel.setHTML(result);
-       * dialogBox.center();
-       * closeButton.setFocus(true);
-       * }
-       * });
-       * }
+             * private void sendNameToServer() {
+             * // First, we validate the input.
+             * errorLabel.setText("");
+             * String textToServer = nameField.getText();
+             * if (!FieldVerifier.isValidName(textToServer)) {
+             * errorLabel.setText("Please enter at least four characters");
+             * return;
+             * }
+             * 
+             * // Then, we send the input to the server.
+             * sendButton.setEnabled(false);
+             * textToServerLabel.setText(textToServer);
+             * serverResponseLabel.setText("");
+             * greetingService.greetServer(textToServer, new AsyncCallback<String>() {
+             * public void onFailure(Throwable caught) {
+             * // Show the RPC error message to the user
+             * dialogBox.setText("Remote Procedure Call - Failure");
+             * serverResponseLabel.addStyleName("serverResponseLabelError");
+             * serverResponseLabel.setHTML(SERVER_ERROR);
+             * dialogBox.center();
+             * closeButton.setFocus(true);
+             * }
+             * 
+             * public void onSuccess(String result) {
+             * dialogBox.setText("Remote Procedure Call");
+             * serverResponseLabel.removeStyleName("serverResponseLabelError");
+             * serverResponseLabel.setHTML(result);
+             * dialogBox.center();
+             * closeButton.setFocus(true);
+             * }
+             * });
+             * }
              */
         }
 

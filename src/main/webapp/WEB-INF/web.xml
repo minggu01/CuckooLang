@@ -15,13 +15,8 @@
         <url-pattern>/cuckoolang/greet</url-pattern>
     </servlet-mapping>
 
-    <!-- Default page to serve 
+    <!-- Default page to serve -->
     <welcome-file-list>
         <welcome-file>CuckooLang.html</welcome-file>
     </welcome-file-list>
--->
-    <welcome-file-list>
-        <welcome-file>Mail.html</welcome-file>
-    </welcome-file-list>
-
 </web-app>
